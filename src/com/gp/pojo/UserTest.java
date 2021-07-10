@@ -2,7 +2,7 @@ package com.gp.pojo;
 
 public class UserTest {
     public static void main(String[] args) {
-        UserInterface userInterface = new UserProxy(new User());
+        UserInterface userInterface = new UserProxy(new User2());
 
         userInterface.playGame();
     }
